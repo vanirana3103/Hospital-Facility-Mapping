@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to HealthSync Hub</h1>
+        <nav>
+
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+      
+            <div class="hospital-select">
+                <label for="hospital">Select Hospital <br></label>
+                <select id="hospital" name="hospital" onchange="showHospitalInfo()">
+                    <option value="" selected disabled>Select Hospital</option>
+                    <option value="hospital1">Hospital 1</option>
+                    <option value="hospital2">Hospital 2</option>
+                    <option value="hospital3">Hospital 3</option>
+                </select>
+            </div>
+    </header>
+    
+    <div class="image-container">
+        <img src="main.jpg" alt="Hospital Image">
+    </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p id="hospital-info"></p>
+    </section>
+    <section class="about-section">
+        <h2>Welcome to Our Hospital 360</h2>
+        <p>At Hospital 360, we provide a unique platform that allows users to explore hospitals in a whole new way. With our innovative technology, users can experience a 360-degree view of any hospital they want to see, right from the comfort of their own home.</p>
+        <p>Our platform offers:</p>
+        <ul>
+            <li>360-degree virtual tours of hospitals</li>
+            <li>Detailed information about each hospital, including:</li>
+            <ul>
+                <li>Floors and departments</li>
+                <li>Doctors and staff</li>
+                <li>Facilities and amenities</li>
+            </ul>
+ 
+        </ul>
+        <p>Whether you're researching hospitals for medical treatment, planning a visit, or simply curious to explore healthcare facilities around the world, Hospital 360 is here to provide you with a comprehensive and immersive experience.</p>
+    </section>
+    <div class="container">
+        <div class="content" id="contact">
+            <h2>Contact Us</h2>
+            <address>
+                123 Hospital St,<br>
+                City, State, ZIP<br>
+                Phone: 123-456-7890<br>
+                Email: info@hospital.com
+            </address>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
