@@ -23,14 +23,6 @@ Streamline the appointment scheduling process by booking appointments online. Ch
 ### Medical Record Management
 Store and manage your medical records securely on our platform. Access your health history, test results, and prescriptions whenever you need them, and share them with your healthcare providers seamlessly.
 
-## Contact Us 📞
-
-If you have any questions, feedback, or need assistance, feel free to reach out to us:
-
-- **Address:** 123 Hospital St, City, State, ZIP
-- **Phone:** 123-456-7890
-- **Email:** info@healthsynchub.com
-
 ## Get Started 🚀
 
 Ready to experience the future of healthcare? Visit our website and explore the wide range of features and services offered by HealthSync Hub. Whether you're a patient, healthcare provider, or hospital administrator, there's something for everyone!
